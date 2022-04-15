@@ -1,0 +1,34 @@
+[
+    {
+        "Maskapai": "Garuda",
+        "Asal_penerbangan": "Soekarno-Hatta (CGK)",
+        "tujuan_penerbangan": "Ngurai Rai (DPS)",
+        "Harga_tiket": "1000000",
+        "Pajak": 130000,
+        "Total_harga": 1130000
+    },
+    {
+        "Maskapai": "Bijan Air",
+        "Asal_penerbangan": "Soekarno-Hatta (CGK)",
+        "tujuan_penerbangan": "Hasanuddin (UPG)",
+        "Harga_tiket": "1500000",
+        "Pajak": 120000,
+        "Total_harga": 1620000
+    },
+    {
+        "Maskapai": "Air Asia",
+        "Asal_penerbangan": "Husein Sastranegara (BDO)",
+        "tujuan_penerbangan": "Sultan Iskandar Muda (BTJ)",
+        "Harga_tiket": "2000000",
+        "Pajak": 100000,
+        "Total_harga": 2100000
+    },
+    {
+        "Maskapai": "FathanAir",
+        "Asal_penerbangan": "Soekarno-Hatta (CGK)",
+        "tujuan_penerbangan": "Halim Perdanakusuma (HLP)",
+        "Harga_tiket": "250000",
+        "Pajak": 130000,
+        "Total_harga": 380000
+    }
+]

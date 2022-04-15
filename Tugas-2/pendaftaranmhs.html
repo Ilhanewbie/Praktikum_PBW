@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <title>Tugas Form</title>
+        <style>
+body{
+    font-family: verdana, arial, helvetica;
+    margin-top: 4.5px;
+    line-height: 1.65;
+    padding-bottom: 100px;
+}
+h1{
+    text-align: center;
+    margin-bottom: -5px;
+}
+#input{
+    margin-left: 225px;
+    width: 865px;
+    height: 35px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input{
+    margin-left: 225px;
+}
+.alamat{
+    margin-left: 225px;
+    width: 865px;
+    height: 45px;
+    opacity: 50%;
+}
+label{
+    margin-left: 225px;
+    line-height: 25px;
+}
+select{
+    margin-left: 225px;
+    width: 865px;
+    height: 41px;
+    padding: 12px 12px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+}
+button{
+    width: 100px;
+    font-family: sans-serif;
+    font-size: 14.5px;
+    background: blue;
+    color: white;
+    border: white 3px solid;
+    border-radius: 6px;
+    padding: 12px 20px;
+    text-decoration: none;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+</style>
+</head>
+    <body>
+         <h1>Pendaftaran Mahasiswa Baru</h1>
+         <form action="#" method="GET">
+         <label for="npm" class="label" id="npm">NPM (Nomor Pokok    Mahasiswa)</label>
+<br>
+         <input type="text" name="npm" id="input">
+         </form>
+<br>
+         <form action="#" method="GET">
+         <label for="nama" class="label">Nama Lengkap</label>
+<br>
+         <input type="text" name="nama" id="input">
+         </form>
+<br>
+         <label for="alamat" class="label">Alamat</label>
+<br>
+         <textarea name="alamat" class="alamat" id="alamat">
+         </textarea>
+<br>
+            
+<br>
+         <label for="jk" class="label">Jenis Kelamin</label>
+<br>
+         <input type="radio" name="jk" id="jk" value="Laki-Laki" style="display: inline-block;"> Laki-Laki
+<br>
+         <input type="radio" name="jk" id="jk" value="Perempuan"> Perempuan
+<br>
+            
+<br>
+         <label for="prodi" class="label">Program Studi</label>
+<br>
+         <select name="prodi" id="prodi">
+         <option value="Teknik Informatika">Teknik Informatika</option>
+         <option value="Sistem Informasi">Sistem Informasi</option>
+         </select>
+<br>
+         <button>Tambah</button>
+    </body>
+    </html>
